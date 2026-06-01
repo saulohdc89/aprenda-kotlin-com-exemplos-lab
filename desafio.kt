@@ -111,7 +111,7 @@ class Formacao(
 
 
 fun main() {
-    println(" === DESAFIO KOTLIN - FORMAÇÕES DIO === \n")
+    println("🎓 === DESAFIO KOTLIN - FORMAÇÕES DIO === \n")
     
     // Criando conteúdos educacionais
     val conteudo1 = Curso("Introdução ao Kotlin", 40, "Kotlin")
@@ -142,7 +142,7 @@ fun main() {
     val aluno2 = Aluno(nome = "Fabricia Souza", email = "fabisouza@email.com")
     val aluno3 = Aluno(nome = "Milany Mendes", email = "Mila@email.com")
     
-    // Matriculando alunos (usando o retorno da própria formação para chaining)
+    // Matriculando alunos 
     formacaoAndroid
         .matricularAlunos(aluno1, aluno2)
         .matricular(aluno3)
