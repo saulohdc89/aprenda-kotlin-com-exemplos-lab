@@ -180,4 +180,10 @@ fun main() {
     println("Try como expressão: $resultadoConversao")
     
     println("\n === FIM DO DESAFIO ===")
+
+    //Considerações finais:
+    // - O código foi estruturado para ser claro e didático, utilizando os conceitos de Kotlin de forma prática.
+    // - As formações e conteúdos foram criados para exemplificar o domínio de forma realista, mas sem complicar demais.
+    // - A validação de alunos e o uso de exceções demonstram como lidar com erros de forma elegante em Kotlin.
+    // - O uso de propriedades calculadas e funções de extensão poderia ser explorado mais a fundo, mas o foco foi manter o código acessível para iniciantes.
 }
